@@ -1,4 +1,4 @@
-"author:lly 
+
 " Maintainer:	Bram Moolenaar <Bram@vim.org>
 " Last change:	2017 Sep 20
 "
@@ -133,7 +133,7 @@ map <F5> :call CompileRunGcc()<CR>
 func! CompileRunGcc()
     exec "w"
     if &filetype == 'c'
-        exec "!g++ % -o %<"
+        exec "!gcc % -o %<"
         exec "!time ./%<"
     elseif &filetype == 'cpp'
         exec "!g++ % -std=c++11 -o %<"
