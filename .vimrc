@@ -88,6 +88,7 @@ colorscheme solarized
    "用浅色高亮当前行
    set cursorline
    set guifont =monaco\ 18
+   "让powerline一直显示
    set laststatus=2
 
 
