@@ -107,10 +107,10 @@ colorscheme solarized
    "
    
 Plugin 'scrooloose/nerdtree'
-"Plugin 'Lokaltog/vim-powerline'
+Plugin 'Lokaltog/vim-powerline'
   Plugin 'Yggdroot/indentLine' 
 "Plugin 'Valloric/YouCompleteMe'   
-Plugin 'itchyny/lightline.vim'
+"Plugin 'itchyny/lightline.vim'
   Plugin 'maralla/completor.vim'
 Plugin 'vim-scripts/indentpython.vim' 
    " 你的所有插件需要在下面这行之前
