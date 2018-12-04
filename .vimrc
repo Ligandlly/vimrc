@@ -88,7 +88,7 @@ colorscheme solarized
    "用浅色高亮当前行
    set cursorline
    set guifont =monaco\ 18
-
+   set laststatus=2
 
 
    " 设置包括vundle和初始化相关的runtime path
