@@ -74,13 +74,20 @@ colorscheme solarized
    set smartindent
    " colorscheme industry
    set ignorecase
+   
+   "tab
+   set ts=4
+   set expandtab
+   set softtabstop=4
+   set shiftwidth=4
+
 
    set nocompatible              " 去除VI一致性,必须
    filetype off                  " 必须
 
    "用浅色高亮当前行
    set cursorline
-
+   set guifont =monaco\ 18
 
 
 
@@ -123,7 +130,7 @@ Plugin 'vim-scripts/indentpython.vim'
   
   
   
-  
+  "
   
  "python配置
   
